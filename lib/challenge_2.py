@@ -1,3 +1,5 @@
+# : Two numbers are positive.
+
 def check_positive_numbers(a, b, c):
     if a >= 0 and b >= 0 and c >= 0:
         return True
