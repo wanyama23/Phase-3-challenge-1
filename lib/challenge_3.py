@@ -12,6 +12,9 @@
 
 def consonants(string):
     consonants = []
+
+    alph=['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+    
     for char in string:
         if char.lower() not in ['a', 'e', 'i', 'o', 'u']:
             consonants.append(char)
