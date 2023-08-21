@@ -59,4 +59,9 @@ Navigate to cloned repository: cd phase-3-challenge-1
 install and upgrading: pip install --upgrade pipenv
 Install dependencies:  pipenv install
 Create pipenv environment: pipenv shell
+Then cd to lib
+then running the test by typing on the termianl
+python3 challenge_1.py
+python3 challenge_2.py
+python3 challenge_3.py
 
