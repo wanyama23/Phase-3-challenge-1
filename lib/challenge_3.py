@@ -40,7 +40,7 @@ string1 = 'hello'
 string2 = 'hi'
 string3 = 'how are you'
 
-print (max(consonants(string1)))
+print (consonants(string1))
 print(consonants(string2))
 print(consonants(string3))
 
