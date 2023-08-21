@@ -1,3 +1,14 @@
+# import re
+# solve = lambda s : max([sum([ord(letter)-ord('a')+1 for letter in consOnly]) for consOnly in re.split("a|e|i|o|u",s)])
+
+# print(solve("zodiacs")) # output : 26
+# print(solve("chruschtschov")) # output : 80
+# print(solve("rhythm")) # output : 92
+
+
+
+
+
 # string = "hello world"
 
 # def get_consonants(string):
@@ -29,20 +40,7 @@ string1 = 'hello'
 string2 = 'hi'
 string3 = 'how are you'
 
-print (consonants(string1))
+print (max(consonants(string1)))
 print(consonants(string2))
 print(consonants(string3))
 
-# def solve(s): 
-#     """replace all Consonant value with a " "(space) """
-#     empty = []
-#     result = re.sub(r'[AEIOU]', ' ', s, flags=re.IGNORECASE)
-
-#     solution = result.split(" ")
-#     for i in range(len(solution)):
-#         alphabet = string.ascii_lowercase  # латинский алфавит
-#         word = solution[i]
-#         ind_list = [sum(alphabet.index(x) + 1 for x in word.lower())]
-#         empty.append(' '.join(map(str, ind_list)))
-
-#     print(max(map(int, empty)))
