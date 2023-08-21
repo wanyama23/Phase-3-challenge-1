@@ -16,15 +16,20 @@ def consonants(string):
     alph=['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
     
     for char in string:
-        if char.lower() not in ['a', 'e', 'i', 'o', 'u']:
-            consonants.append(char)
+        if char.lower() not in ['a', 'e', 'i', 'o', 'u',' '," "]:
+            # consonants.append(char)
+
+            char2=alph.index(char)+1
+
+            consonants.append(char2)
+
     return consonants
 
 string1 = 'hello'
 string2 = 'hi'
 string3 = 'how are you'
 
-print(consonants(string1))
+print (consonants(string1))
 print(consonants(string2))
 print(consonants(string3))
 
